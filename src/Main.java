@@ -68,11 +68,11 @@ public class Main {
         System.out.println("Вес завтрака в кг = " + weightKg);
 
         System.out.println("Задание 7");
-        float firstVersion = 7000/250;
-        float secondVersion = 7000/500;
+        int firstVersion = 7000/250;
+        int secondVersion = 7000/500;
         System.out.println("За " + firstVersion + " дней спортсмен сбросит 7 кг, если будет худеть на 250гр в день");
         System.out.println("За " + secondVersion + " дней спортсмен сбросит 7 кг, если будет худеть на 500гр в день");
-        float middle = (firstVersion+secondVersion)/2;
+        int middle = (firstVersion+secondVersion)/2;
         System.out.println("В среднем потребуется " + middle);
 
         System.out.println("Задание 8");
