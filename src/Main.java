@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Значение переменной b с типом byte равно " + b );
         short c = 1;
         System.out.println("Значение переменной c с типом short равно " + c );
-        long d = 23984723;
+        long d = 239_847_231L;
         System.out.println("Значение переменной d с типом long равно " + d );
         float e = 0.5f;
         System.out.println("Значение переменной e с типом float равно " + e );
@@ -15,20 +15,23 @@ public class Main {
         System.out.println("Значение переменной f с типом double равно " + f );
 
         System.out.println("Задание 2");
-        double Number1 = 27.12;
-        //long Number2 = 987678965549; (не компелируется)
-        byte Number3 = 2;
-        short Number4 = 786;
-        boolean Number5 = false;
-        float Number6 = 569;
-        int Number7 = -159;
+        float Number1 = 27.12f;
+        long Number2 = 987_678_965_549L;
+        double Number3 = 2.786;
+        boolean Number4 = false;
+        char Number5 = 569;
+        short Number6 = -159;
+        int Number8 = 27897;
+        byte Number7 = 67;
+
         System.out.println(Number1);
-        //System.out.println(Number2);
+        System.out.println(Number2);
         System.out.println(Number3);
         System.out.println(Number4);
         System.out.println(Number5);
         System.out.println(Number6);
         System.out.println(Number7);
+        System.out.println(Number8);
 
         System.out.println("Задание 3");
         int LP = 23;
